@@ -2,7 +2,7 @@
 
 1.
 chooseCluster(for 2d points,but can also be used in 3d with "point.java" file in DBSCAN_3d and other dataset)
-input: Eps,MinPts,the special point
+  input: Eps,MinPts,the special point
   outpot: The Cluster where the special point is located
   
   Experiment：
