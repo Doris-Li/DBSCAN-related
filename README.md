@@ -1,12 +1,13 @@
 # DBSCAN-related
 
-1.chooseCluster(for 2d points,but can also be used in 3d with "point.java" file in DBSCAN_3d)
+1.chooseCluster(for 2d points,but can also be used in 3d with "point.java" file in DBSCAN_3d and other dataset)
   input: Eps,MinPts,the special point
   outpot: The Cluster where the special point is located
   
   Experiment：
-  data.txt: input points
-  m3.txt: output cluster points
+  showCluster.m: run to show clusters on Matlab
+  data.txt: all clusters
+  m3.txt: output the cluster for the chosen point
   
   
 2.DBSCAN_2d
@@ -39,7 +40,7 @@
   run for the second time with chosen Eps
   get result of clusters
   
-  data.m: run initial data(in dataIn3d.zip) on Matlab to see the points
+  dataIn3d.m: run initial data(in dataIn3d.zip) on Matlab to see the points
   k_dist.m: run to see k_distance graph on Matlab (g2.txt/ g.txt)
   result.m: run to see clusters on Matlab (wineC.txt/ irisC.txt)
   wine.txt/ iris.txt: input points
