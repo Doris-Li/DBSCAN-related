@@ -1,6 +1,7 @@
 # DBSCAN-related
 
-1.chooseCluster(for 2d points,but can also be used in 3d with "point.java" file in DBSCAN_3d and other dataset)
+1.
+chooseCluster(for 2d points,but can also be used in 3d with "point.java" file in DBSCAN_3d and other dataset)
   input: Eps,MinPts,the special point
   outpot: The Cluster where the special point is located
   
@@ -10,7 +11,8 @@
   m3.txt: output the cluster for the chosen point
   
   
-2.DBSCAN_2d
+2.
+DBSCAN_2d
   input: points
   output: MinPts(k), k_distance graph, clusters
   
@@ -29,7 +31,8 @@
   g3.txt: k_distance graph data
   
   
-3.DBSCAN_3d
+3.
+DBSCAN_3d
   input: points
   output: MinPts(k), k_distance graph, clusters
   
