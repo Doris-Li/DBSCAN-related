@@ -1,4 +1,4 @@
-a = importdata("wineC.txt");
+a = importdata("wineC.txt");  %or irisC.txt
 m=size(a,1);
 for i=1:1:m
     if a(i,4)==1
